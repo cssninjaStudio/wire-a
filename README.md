@@ -1,6 +1,6 @@
-# Bold
+# Wire A
 
-Bulma Skeleton Template
+Bulma + Alpine JS Chat UI
 
 ## Usage
 
