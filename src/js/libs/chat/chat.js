@@ -71,14 +71,6 @@ export function initChat() {
 
     isParticipantsLoading: false,
     isConversationLoading: true,
-    test() {
-      fetch("/data/conversation-1.json")
-        .then((resp) => resp.json())
-        .then(function (data) {
-          console.log(data);
-        })
-        .catch(function (error) {});
-    },
 
     initialConversation() {
       //Simulate loading
