@@ -1,20 +1,59 @@
-# Wire A
+# 👋 Wire A
 
-Bulma + Alpine JS Chat UI
+> Wire A is a chat app UI built by [cssninjaStudio](https://cssninja.io).
 
-## Usage
+![Screenshot](https://media.cssninja.io/products/wire-a/product.png "Wire-A")
 
-1. Install Dev Depedencies (nodeJs 12 required)
+## ✌️ preview
+
+Check out the live demo by clicking [here](https://wire-a.cssninja.io/).
+Wire A is built with [Bulma](https://bulma.io) and [Alpine JS](https://github.com/alpinejs/alpine).
+
+## 👍 Features
+
+- Gulp 4 and nodejs 12.20.0 to 16.0.0
+- Bulma 0.9.3
+- ES6 support
+- Alpine v3
+
+## 👌 Usage
+
+1. Install Dev Depedencies
+
 ```sh
-npm install
+yarn install
 ```
-2. To start development and server for live preview
+
+2. To start development server
+
 ```sh
-npm run dev
+yarn dev
 ```
 
-# Edits
-The Bulma source has been customized.
+3. Build for production
 
-* Call to `$fullhd-enabled: false;` in `_variables.scss` to override the default Bulma.
-* `/src/sass/sass/helpers/spacing.sass` has been removed from the imports. We import our own helpers instead.
+```sh
+# build the dist folder
+yarn build
+```
+
+## 🍔 Issues
+
+If you've found an issue or a bug, you can report it in the issues section of this repository.
+Please try to follow these simple guidelines to report your issue:
+
+- Issue definition
+- Expected behaviour
+- Actual behaviour
+- steps to reproduce
+- Already tried fixes (if relevant)
+
+## 🎉 More
+
+You liked Wire A? Check also our other premium Envato bulma themes [Css Ninja](https://cssninja.io/themes).
+
+Find more premium bulma templates on [Css Ninja](https://cssninja.io/category/all).
+
+## 🚀 About Us
+
+Css Ninja is a web design studio. We build handcrafted and polished templates that will give some hype to your startup or to your next project.
