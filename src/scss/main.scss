@@ -1,4 +1,4 @@
-/*! main.scss | Wire A | Css ninja 2021-2022 */
+/*! main.scss | Wire A | Css ninja 2022-2023 */
 
 /* ==========================================================================
 SCSS Imports
@@ -9,7 +9,7 @@ SCSS Imports
 @import "abstracts/shadows";
 @import "abstracts/typography";
 
-@import "../sass/bulma";
+@import "../../node_modules/bulma/bulma.sass";
 
 @import "utilities/utilities";
 
