@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   wire-a-demo:
-    image: digisquad/cssninja.bulkit-demo:latest
+    image: digisquad/cssninja.wire-a-demo:latest
     networks:
       - cssninja-services
     restart: "unless-stopped"
