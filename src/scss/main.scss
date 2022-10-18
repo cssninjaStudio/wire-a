@@ -11,34 +11,34 @@ SCSS Imports
 
 @import "../../node_modules/bulma/bulma.sass";
 
-@import "utilities/utilities";
+// @import "./utilities/utilities";
 
-@import "abstracts/animations";
-@import "abstracts/helpers";
+@import "./abstracts/animations";
+@import "./abstracts/helpers";
 
-@import "components/pageloader";
-@import "components/placeload";
-@import "components/navbar";
-@import "components/hamburger";
-@import "components/button";
-@import "components/loader";
-@import "components/dropdown";
-@import "components/emojipicker";
-@import "components/card";
-@import "components/table";
-@import "components/tabs";
-@import "components/image";
-@import "components/video";
-@import "components/tag";
-@import "components/pricing";
-@import "components/map";
+@import "./components/pageloader";
+@import "./components/placeload";
+@import "./components/navbar";
+@import "./components/hamburger";
+@import "./components/button";
+@import "./components/loader";
+@import "./components/dropdown";
+@import "./components/emojipicker";
+@import "./components/card";
+@import "./components/table";
+@import "./components/tabs";
+@import "./components/image";
+@import "./components/video";
+@import "./components/tag";
+@import "./components/pricing";
+@import "./components/map";
 
-@import "forms/input";
-@import "forms/toggle";
+@import "./forms/input";
+@import "./forms/toggle";
 
-@import "layout/base";
-@import "layout/sidebar";
-@import "layout/nav";
-@import "layout/body";
-@import "layout/panel";
-@import "layout/dark";
+@import "./layout/base";
+@import "./layout/sidebar";
+@import "./layout/nav";
+@import "./layout/body";
+@import "./layout/panel";
+@import "./layout/dark";

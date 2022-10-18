@@ -1,6 +1,6 @@
 # 👋 Wire A
 
-[![cssninja-discord](https://img.shields.io/discord/785473098069311510?label=join%20us%20on%20discord&color=6944EC)](https://discord.cssninja.io/)
+[![cssninja-discord](https://img.shields.io/discord/785473098069311510?label=join%20us%20on%20discord&color=6944EC)](https://go.cssninja.io/discord)
 
 > Wire A is a chat app UI built by [cssninjaStudio](https://cssninja.io).
 
@@ -13,31 +13,63 @@ Wire A is built with [Bulma](https://bulma.io) and [Alpine JS](https://github.co
 
 ## 👍 Features
 
-- Gulp 4 and nodejs 12.20.0 to 16.0.0
+- Gulp 4 and Node.js 16/18+
 - Bulma 0.9.3
 - ES6 support
 - Alpine v3
 
+### Requirements
+
+To use this template, your computer needs:
+
+- Node.js (>= 16.x.x) is used to run the build processes. https://nodejs.org/en/download/
+- Test: run `node -v` in the terminal
+
 ## 👌 Usage
 
-1. Install Dev Depedencies
+1. enable pnpm with corepack
 
-```sh
-yarn install
+```bash
+corepack enable
+corepack prepare pnpm@latest --activate
 ```
 
-2. To start development server
+> _corepack is installed with Node.js from **v16.13.x**, if your version is below, install it with: `npm install -g corepack`, or upgrade Node.js_ 
 
-```sh
-yarn dev
+2. Install depedencies
+
+```bash
+pnpm i
 ```
 
-3. Build for production
+3. To start development server
 
-```sh
-# build the dist folder
-yarn build
+```bash
+pnpm dev
 ```
+
+## 💡 What to do next ?
+
+Our online documentation is a great place to learn how to use Bulkit.
+We try to keep it mostly up to date, so you can always find the latest information.
+
+> We also have a great [discord community](https://discord.cssninja.io/) where you can ask questions and show your work.
+
+### [Wire-A on docs.cssninja.io](https://docs.cssninja.io/gulp-alpine?utm_source=readme&utm_medium=wire-a)
+
+- [Getting started](https://docs.cssninja.io/gulp-alpine/documentation/getting-started.html?utm_source=readme&utm_medium=wire-a)
+- [Template Highlights](https://docs.cssninja.io/gulp-alpine/documentation/template-highlights.html?utm_source=readme&utm_medium=wire-a)
+- [Template structure](https://docs.cssninja.io/gulp-alpine/documentation/template-structure.html?utm_source=readme&utm_medium=wire-a)
+- [Working with Gulp](https://docs.cssninja.io/gulp-alpine/documentation/working-with-gulp.html?utm_source=readme&utm_medium=wire-a)
+- [Customer support](https://docs.cssninja.io/gulp-alpine/documentation/customer-support.html?utm_source=readme&utm_medium=wire-a)
+
+### Additional Resources:
+
+- [Sass: Syntactically Awesome Style Sheets](http://sass-lang.com/)
+- [Bulma](https://bulma.io/)
+- [Handlebars](http://handlebarsjs.com/)
+- [Panini](https://github.com/zurb/panini)
+- [Gulp](https://gulpjs.org/getting-started)
 
 ## 🍔 Issues
 

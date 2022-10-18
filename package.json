@@ -1,8 +1,20 @@
 {
   "name": "wire-a",
   "version": "2.0.3",
-  "description": "Wire A - Bulma chat UI",
-  "main": "gulpfile.js",
+  "private": true,
+  "license": "SEE LICENSE IN LICENSE.md",
+  "author": {
+    "name": "cssninjaStudio <hello@cssninja.io> (https://cssninja.io)"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build",
+    "preview": "http-server dist -s -p 5000"
+  },
   "dependencies": {
     "@joeattardi/emoji-button": "4.6.0",
     "@alpinejs/intersect": "^3.9.0",
@@ -46,28 +58,5 @@
     "panini": "1.7.2",
     "sass": "1.39.2",
     "vinyl-source-stream": "2.0.0"
-  },
-  "scripts": {
-    "dev": "gulp",
-    "build": "gulp build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/"
-  },
-  "type": "module",
-  "node": "^12.20.0 || ^14.13.1 || >=16.0.0",
-  "keywords": [
-    "gulp",
-    "gulp4",
-    "bulma",
-    "bulmacss",
-    "sass"
-  ],
-  "author": "Css Ninja",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/cssninjaStudio/wire-a"
-  },
-  "homepage": "https://github.com/cssninjaStudio/wire-a"
+  }
 }
