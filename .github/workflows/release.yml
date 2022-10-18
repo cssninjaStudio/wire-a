@@ -38,7 +38,7 @@ jobs:
           echo ::set-output name=project-capitalized::${project^}
           echo ::set-output name=tag::${GITHUB_REF#refs/tags/}
 
-			# This is where we generate releases assets.
+      # This is where we generate releases assets.
       # It use a github action in the current directory 
       # which contains a shell script to create the archive. 
       # The archive path is stored in the output action
@@ -49,7 +49,7 @@ jobs:
           tag: ${{ steps.meta.outputs.tag }}
           project: ${{ steps.meta.outputs.project }}
 
-			# We re-generate the changelog using a subset of standard-version
+      # We re-generate the changelog using a subset of standard-version
       # The content is generated in a temp /CHANGELOG_RELEASE.md file
       # It is used to generate the body of the github release
       - id: changelog
@@ -68,7 +68,7 @@ jobs:
           name: ${{ steps.meta.outputs.project-capitalized }} ${{ steps.meta.outputs.tag }}
           body_path: ${{ github.workspace }}/CHANGELOG_RELEASE.md
           prerelease: false
-					# The draft is required to allow file upload
+          # The draft is required to allow file upload
           draft: true
           fail_on_unmatched_files: true
           # Here we bind files built by custom actions to the release
