@@ -11,7 +11,7 @@ services:
       traefik.docker.network: 'cssninja-services'
       traefik.http.routers.wire-a-demo.entrypoints: 'http'
       traefik.http.routers.wire-a-demo.rule: 'Host(`wire-a.${HOST:-127.0.0.1.nip.io}`)'
-      traefik.http.routers.wire-a-demo.middlewares: 'https-redirect@file'
+      traefik.http.routers.wire-a-demo.middlewares: 'https-redirect@docker'
       traefik.http.services.wire-a-demo-https.loadbalancer.server.port: 8080
       traefik.http.routers.wire-a-demo-https.rule: 'Host(`wire-a.${HOST:-127.0.0.1.nip.io}`)'
       traefik.http.routers.wire-a-demo-https.tls: true
