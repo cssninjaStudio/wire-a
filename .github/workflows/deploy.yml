@@ -15,6 +15,8 @@ concurrency:
 
 jobs:
   docker-build:
+    # We can skip deployment by adding [skip] in the commit body
+    if: "!contains(github.event.head_commit.message, '[skip]')"
     runs-on: ubuntu-latest
 
     steps:
