@@ -16,7 +16,7 @@ outputs:
 runs:
   using: "composite"
   steps:
-		# Ensure that zip is installed
+    # Ensure that zip is installed
     - run: sudo apt-get install zip
       shell: bash
     # Here we pass our inputs to the script.sh
