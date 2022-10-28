@@ -19,4 +19,4 @@ FROM bitnami/nginx:1.21 AS prod
 WORKDIR /app
 
 COPY --from=build /app/dist .
-COPY ./nginx/spa.conf /opt/bitnami/nginx/conf/server_blocks/nginx.conf
+COPY ./nginx/alpinejs.conf /opt/bitnami/nginx/conf/server_blocks/nginx.conf
