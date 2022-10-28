@@ -1,4 +1,4 @@
-/*! _utilities.scss | Wire A | Css ninja 2020-2021 */
+/*! _utilities.scss | Wire A | */
 
 /*
     1. Reponsive variants
@@ -10,7 +10,7 @@
 
 @use 'sass:map';
 @use 'variants' as * with (
-  $breakpoints: (
+  $breakpointz: (
     'mobile': 767px,
     'small': 768px,
     'large': 1024px,

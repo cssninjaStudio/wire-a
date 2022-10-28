@@ -1,4 +1,4 @@
-/*! _variants.sass | Wire A | Css ninja 2020-2021 */
+/*! _variants.sass | Wire A | */
 
 /*1. Responsive variants implementation*/
   
@@ -11,7 +11,7 @@
 /// List of available breakpoints.
 ///
 /// @type Map
-$breakpoints: () !default
+$breakpointz: () !default
 
 
 /// The position of the breakpoint to the selector.
@@ -167,7 +167,7 @@ $option-glue: '-' !default
       @content($data...)
 
     @if $responsive
-      @each $breakpoint, $value in $breakpoints
+      @each $breakpoint, $value in $breakpointz
         @media screen and (max-width: #{$value})
           @include _io($variants, $breakpoint) using ($data...)
             @content($data...)

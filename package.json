@@ -1,35 +1,31 @@
 {
   "name": "wire-a",
   "version": "2.1.0",
+  "description": "Wire A - Bulma chat UI",
   "private": true,
-  "license": "SEE LICENSE IN LICENSE.md",
   "author": {
     "name": "cssninjaStudio <hello@cssninja.io> (https://cssninja.io)"
-  },
-  "type": "module",
-  "engines": {
-    "node": ">=16.0.0"
   },
   "scripts": {
     "dev": "gulp",
     "build": "gulp build",
-    "preview": "http-server dist -s -p 5000"
+    "build:update-bulma-colors": "bulma-css-vars"
   },
+  "type": "module",
+  "license": "SEE LICENSE IN LICENSE.md",
   "dependencies": {
     "@joeattardi/emoji-button": "4.6.0",
-    "@alpinejs/intersect": "^3.9.0",
-    "@alpinejs/persist": "^3.7.1",
-    "@ryangjchandler/fern": "^0.1.0",
-    "alpinejs": "^3.9.0",
-    "bulma": "^0.9.3",
-    "codemirror": "^5.58.3",
-    "feather-icons": "^4.24.0",
-    "ionicons": "^5.2.3",
-    "js-datepicker": "^5.16.0",
-    "notyf": "^3.9.0",
-    "plyr": "^3.5.6",
-    "postcss": "^8.3.0",
-    "simplebar": "^5.3.3"
+    "@alpinejs/collapse": "3.10.4",
+    "@alpinejs/intersect": "3.10.4",
+    "@alpinejs/persist": "3.10.4",
+    "alpinejs": "3.10.4",
+    "bulma": "0.9.4",
+    "feather-icons": "4.24.0",
+    "js-datepicker": "5.16.0",
+    "notyf": "3.9.0",
+    "plyr": "3.5.6",
+    "postcss": "8.3.0",
+    "simplebar": "5.3.9"
   },
   "devDependencies": {
     "@babel/cli": "7.16.0",
@@ -38,7 +34,7 @@
     "@babel/register": "7.16.0",
     "autoprefixer": "10.4.0",
     "babelify": "10.0.0",
-    "browser-sync": "2.27.7",
+    "browser-sync": "2.27.10",
     "browserify": "17.0.0",
     "del": "6.0.0",
     "gulp": "4.0.2",
