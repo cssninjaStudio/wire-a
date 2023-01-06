@@ -2,8 +2,6 @@
 
 > Wire A is a chat app UI built by [cssninjaStudio](https://cssninja.io).
 
-![Screenshot](https://media.cssninja.io/products/wire-a/product.png "Wire-A")
-
 ## ✌️ preview
 
 Check out the live demo by clicking [here](https://wire-a.cssninja.io/).
@@ -11,7 +9,8 @@ Wire A is built with [Bulma](https://bulma.io) and [Alpine JS](https://github.co
 
 ## 👍 Features
 
-* Gulp 4 and nodejs 16.x (minimum)
+* Astro v1.x
+* Nodejs v16.x
 * Bulma 0.9.x
 * ES6 support
 * Alpine v3.x
