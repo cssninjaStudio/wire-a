@@ -1,7 +1,7 @@
 {
   "name": "wire-a",
   "type": "module",
-  "version": "2.1.1",
+  "version": "3.0.0",
   "description": "Wire A - Bulma chat UI",
   "private": true,
   "author": {
