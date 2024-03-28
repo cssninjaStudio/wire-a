@@ -2,15 +2,29 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## [2.1.0](https://github.com/cssninjaStudio/wire-a/compare/v2.0.3...v2.1.0) (2022-10-18)
+### [3.1.1](https://github.com/cssninjaStudio/wire-a/compare/v3.1.0...v3.1.1) (2023-05-03)
+
+## [3.1.0](https://github.com/cssninjaStudio/wire-a/compare/v3.0.0...v3.1.0) (2023-02-10)
 
 
 ### Features
 
-* update dependencies, upgrade to Alpine v3 ([d82c125](https://github.com/cssninjaStudio/wire-a/commit/d82c12534c9917edd6392d96e017488547f6f3c0))
-* upgrade to ES module ([b35be4e](https://github.com/cssninjaStudio/wire-a/commit/b35be4e918b1aaa2b22ae9d04724a4905867351d))
+* upgrade to Astro v2 ([7f32dcc](https://github.com/cssninjaStudio/wire-a/commit/7f32dcc0637287d6dc70bf11159fc1692074f841))
+
+## [3.0.0](https://github.com/cssninjaStudio/wire-a/compare/v2.1.2...v3.0.0) (2023-01-06)
 
 
-### Bug Fixes
+### ⚠ BREAKING CHANGES
 
-* replace yarn with pnpm ([c87894b](https://github.com/cssninjaStudio/wire-a/commit/c87894b5fd9ebe766086889739e3472fbc472552))
+* migrate from gulp to astro
+
+### Features
+
+* migrate from gulp to astro ([11bd2aa](https://github.com/cssninjaStudio/wire-a/commit/11bd2aa5ff0c85314fd762d4ed4ec37edc726094))
+
+### [2.1.1](https://github.com/cssninjaStudio/wire-a/compare/v2.1.0...v2.1.1) (2022-10-28)
+
+
+### Features
+
+* update alpine js store ([9194322](https://github.com/cssninjaStudio/wire-a/commit/91943223005b771a4db538fdeb121405b0524d21))
