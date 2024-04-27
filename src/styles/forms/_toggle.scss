@@ -168,7 +168,7 @@
                                 opacity: 1;
                             }
 
-                            svg {
+                            .iconify {
                                 &.sun {
                                     display: none;
                                     stroke: $dark-text;
@@ -176,7 +176,7 @@
                                 }
 
                                 &.moon {
-                                    display: block;
+                                    display: flex;
                                     stroke: $light-white;
                                     color: $light-white;
                                 }
@@ -227,14 +227,16 @@
                         transition: all .3s;
                     }
 
-                    svg {
+                    .iconify {
+                        align-items: center;
+                        justify-content: center;
                         height: 14px;
                         width: 14px;
                         stroke-width: 1.6px;
                         stroke: $dark-text;
 
                         &.sun {
-                            display: block;
+                            display: flex;
                         }
 
                         &.moon {

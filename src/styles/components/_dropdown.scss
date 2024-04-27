@@ -130,10 +130,14 @@
           transition: all 0.3s;
         }
 
-        svg {
+        .iconify {
+          display: flex;
+          align-items: center;
+          justify-content: center;
           height: 18px;
           width: 18px;
           margin: 0 12px;
+          color: $medium-text;
           stroke: $medium-text;
           stroke-width: 1.4px;
           transition: all 0.3s;
@@ -157,7 +161,7 @@
       &.is-active {
         background: $fade-grey;
 
-        i {
+        i, .iconify {
           color: $white;
         }
 
@@ -173,7 +177,7 @@
           color: $secondary;
         }
 
-        i {
+        i, .iconify {
           color: $secondary;
         }
       }
@@ -188,7 +192,7 @@
             color: $accent !important;
           }
 
-          svg {
+          .iconify {
             stroke: $accent !important;
           }
         }
